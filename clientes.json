@@ -1,0 +1,16 @@
+BDO NO MONGO 
+clientes: {
+    "nome":,
+    "cpf":,
+    "email":,
+    "senha":, *NAO SALVAR SENHA, CRIAR UM HASH
+    "conta":, *VAI SER CHAVE PRIMARIA
+    "agencia":,
+ *SE DER NÃO SALVAR O SALDO, CRIAR FUNÇÃO QUE SOMA TODAS AS TRANSAÇÕES DA PESSOA E MOSTRA
+    "transacoes":{
+        "valor":,
+        "data":,
+        "tipo":,
+        "conta":
+    }
+}
